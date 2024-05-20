@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Metadata and CSS links -->
+</head>
+<body>
+    <h1>Library Management</h1>
+    <a href="{{ url_for('add_book') }}">Add Book</a>
+    <ul>
+        {% for book in books %}
+        <li>{{ book['title'] }} by {{ book['author_id'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
