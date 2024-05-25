@@ -3,4 +3,3 @@ class Book:
         self.title = title
         self.author_id = author_id
         self.published_year = published_year
-        self.isbn = isbn
