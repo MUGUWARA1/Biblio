@@ -1,8 +1,8 @@
 from neo4j import GraphDatabase
 
 class Neo4JService:
-    def __init__(self, uri, user, password):
-        self.driver = GraphDatabase.driver(uri, auth=(user, password))
+    def __init__(self):
+        self.driver = GraphDatabase.driver("neo4j+s://c67ae96b.databases.neo4j.io", auth=("neo4j","5UCXRjY8L5xbCyKKTwfRBFbE1zNchIoXPXPy4tdoHHk"))
 
     def add_author(self, author):
         with self.driver.session() as session:
