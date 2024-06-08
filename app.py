@@ -8,7 +8,8 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
 # MongoDB connection URI
-uri = "mongodb+srv://karimderou:9CWbTbSzfoCk7g6F@cluster0.293rwjg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&ssl=true&ssl_cert_reqs=CERT_NONE"
+#put your uri
+
 
 # Configure MongoDB service
 mongodb_service = MongoDBService(uri, db_name="NoSql")
