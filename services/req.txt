@@ -1,2 +1,0 @@
-connection:"mongodb+srv://karimderou:9CWbTbSzfoCk7g6F@cluster0.293rwjg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-username:"karimderou"
