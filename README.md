@@ -27,7 +27,7 @@ The Bibliothèque application is a comprehensive library management system built
 
 ## Technology Stack
 
-- **Frontend Framework:**HTML , CSS
+- **Frontend Framework:** HTML , CSS
 - **Backend Framework:** Flask
 - **Database:** 
   - MongoDB for storing book and user data
